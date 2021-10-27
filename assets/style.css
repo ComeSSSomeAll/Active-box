@@ -149,6 +149,11 @@ p {
     background-color: #e84545d0;
 }
 
+.btn--long {
+    min-width: 280px;
+    margin-left: 0;
+}
+
 /*     Features
 ================= */
 
@@ -292,6 +297,10 @@ p {
     display: flex;
 }
 
+.social--foter {
+    justify-content: center;
+}
+
 .social__link {
     display: flex;
     justify-content: center;
@@ -310,6 +319,10 @@ p {
 
 .social__link:hover .social__icon {
     fill: #e84545;
+}
+
+.social--foter .social__link {
+    background: none;
 }
 
 .social__icon {
@@ -368,4 +381,78 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff
+}
+
+
+/*     Download
+================= */
+
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+
+.download__text {
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+/*     Footer
+================= */
+
+.footer {
+    background-color: #3a3e64;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+
+.footer__block {
+    width: 33.33333%;
+    text-align: center;
+}
+
+.footer__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer__address {
+    line-height: 22px;
+    font-style: 14px;
+    font-style: normal;
+    color: rgba(255, 2555, 255, .5);
+}
+
+.copyright {
+    padding: 20px 0;
+    background-color: #313454;
+}
+
+.copyright__text {
+    text-align: center;
+    color: #808080;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.copyright__text span {
+    color: #fff;
 }
